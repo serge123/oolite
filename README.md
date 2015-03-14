@@ -26,7 +26,7 @@ Patching Oolite source code in Gentoo
 
     cd ../ 
 
-    wget https://oolite.googlecode.com/git/oolite-gentoo-patch-2014-12-24.tar.bz2 
+    wget https://raw.githubusercontent.com/serge123/oolite-gentoo-patch/master/oolite-gentoo-patch-2014-12-24.tar.bz2 
 
     tar xvjf oolite-gentoo-patch-2014-12-24.tar.bz2 
 

@@ -1,6 +1,6 @@
 Patching Oolite source code in Gentoo
 
-    Install packages (tested) 
+    Install packages: 
 
     >=gnustep-base/gnustep-make-2.6.6 
 
@@ -14,17 +14,19 @@ Patching Oolite source code in Gentoo
 
     gnustep-base/gnustep-make +native-exceptions 
 
+    emerge -pv app-accessibility/espeak
+
     Get Oolite source with 
 
     git clone https://github.com/OoliteProject/oolite.git 
 
     or source branch
-    
-    git clone -b maintenance/1.86 https://github.com/OoliteProject/oolite.git 
+
+    git clone -b maintenance/1.86 https://github.com/OoliteProject/oolite.git
 
     where "maintenance/1.86" is branch name
 
-    cd oolite 
+    cd oolite
 
     git submodule update --init 
 

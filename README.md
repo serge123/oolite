@@ -14,7 +14,7 @@ Patching Oolite source code in Gentoo
 
     gnustep-base/gnustep-make +native-exceptions 
 
-    emerge -pv app-accessibility/espeak
+    app-accessibility/espeak
 
     Get Oolite source with 
 

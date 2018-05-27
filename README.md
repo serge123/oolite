@@ -18,6 +18,12 @@ Patching Oolite source code in Gentoo
 
     git clone https://github.com/OoliteProject/oolite.git 
 
+    or source branch
+    
+    git clone -b maintenance/1.86 https://github.com/OoliteProject/oolite.git 
+
+    where "maintenance/1.86" is branch name
+
     cd oolite 
 
     git submodule update --init 
